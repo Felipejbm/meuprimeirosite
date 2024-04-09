@@ -1,13 +1,18 @@
 body{
-    background-color: gray;
+    background-color: #404c74;
 }
 
 header{
-    background-color: lightblue;
+    background-color: blue
+    padding: 3%;
 }
 
+img{
+   width: 5%;
+   height: auto; 
+}
 .logo{
-    background-color: yellow;
+   background-color: #404c74;
 }
 
 nav{
@@ -15,7 +20,10 @@ nav{
 }
 
 main{
-    background-color: green;
+    background-color: limegreen;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section{
@@ -24,4 +32,5 @@ section{
 
 footer{
     background-color: purple;
+    padding: 3%;
 }
