@@ -1,5 +1,6 @@
 body{
     background-color: #404c74;
+    font-size: 150%;
 }
 
 header{
@@ -8,8 +9,11 @@ header{
 }
 
 img{
-   width: 5%;
+   width: 50%;
    height: auto; 
+   display: block;
+   margin-left:auto;
+   margin-right: auto;
 }
 .logo{
    background-color: #404c74;
@@ -20,14 +24,13 @@ nav{
 }
 
 main{
-    background-color: limegreen;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
 section{
-    background-color: wheat;
+    background-color: white;
 }
 
 footer{
