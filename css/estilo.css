@@ -1,5 +1,5 @@
 body{
-    background-color: #404c74;
+    background-color: #DC143C	;
     font-size: 150%;
 }
 
@@ -14,13 +14,15 @@ img{
    display: block;
    margin-left:auto;
    margin-right: auto;
+ 
 }
+
 .logo{
    background-color: #404c74;
 }
 
 nav{
-    background-color: darkgray;
+    background-color: #778899	;
 }
 
 main{
@@ -30,10 +32,40 @@ main{
 }
 
 section{
-    background-color: white;
+    background-color: #778899	;
 }
 
 footer{
     background-color: purple;
     padding: 3%;
 }
+
+div.galeria{
+    margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 100%;
+}
+
+div.gallery img {
+    width: 50%;
+    height: auto;
+}
+  
+div.gallery:hover{
+    border: 2px solid black;
+}
+
+div.desc {
+    background-color:#778899;
+    padding: 15px;
+    text-align: center;
+  }
+
+.{
+    opacity: 0.5;
+  }
+  
+.gallery:hover {
+   opacity: 1.0;
+  }
