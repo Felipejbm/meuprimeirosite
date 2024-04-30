@@ -18,11 +18,11 @@ img{
 }
 
 .logo{
-   background-color: #404c74;
+   background-color: dimgray;
 }
-
 nav{
     background-color: #778899	;
+    display: flex;
 }
 
 main{
@@ -68,4 +68,10 @@ div.desc {
   
 .gallery:hover {
    opacity: 1.0;
+  }
+  .imglogo{
+    height: 60px;
+    width: 90px;
+    text-align: left;
+    margin-left: 20px;
   }
