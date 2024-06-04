@@ -18,7 +18,7 @@ main{
     margin-right: auto; 
     padding: 1%;   
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.575);
+    background-color: rgba(0, 0, 0, 0.719);
 }
 
 .imglogo{
@@ -117,4 +117,41 @@ hr{
 .titu{
     font-family: "Salsa", cursive;
     text-align: center;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: calc(33.33% - 20px); /* 3 cards por linha, os 20px é o espaço de margem entre eles */
+    margin-bottom: 20px;
+    background-color: rgba(128, 0, 0, 0.555);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.tabela{
+    margin-top: 2%;
+    margin-bottom: 2%; 
+}
+
+lu{
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 800px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .card {
+        width: calc(100% - 20px); 
+    }
+   
 }
