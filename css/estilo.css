@@ -1,6 +1,7 @@
 body{
     background-image:url("../img/imgfundo.jpg");
     background-image: 50%;
+    font-family: "Salsa", cursive;
 }
 
 header{
@@ -52,6 +53,20 @@ ul li{
     font-size: 1.2em;
 }
 
+.agentes{
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: brown;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 1em;
+    line-height: 35px;
+}
+
+.agnt{
+    text-align: center;
+    font-size: xx-large;
+}
 h1{
     font-size: 2em;
 }
