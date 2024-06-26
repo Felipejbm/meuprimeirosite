@@ -2,10 +2,55 @@ body{
     background-image:url("../img/imgfundo.jpg");
     background-image: 50%;
     font-family: "Salsa", cursive;
+    font-weight: bold; 
 }
 
 header{
-    background-color: rgba(133, 14, 14, 0.767);        
+    background-color: rgba(133, 14, 14, 0.767);    
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    background-color: rgba(133, 14, 14, 0.568);    
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
 }
 
 li{
@@ -14,12 +59,13 @@ li{
 
 main{
     background-color: rgba(133, 14, 14, 0.288);
+    background-color: rgba(0, 0, 0, 0.719);
     width: 80%;
+    margin-top: 7%;
     margin-left: auto;
     margin-right: auto; 
-    padding: 1%;   
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.719);
+    padding: 1%;
+    color: white;  
 }
 
 .imglogo{
@@ -160,9 +206,47 @@ lu{
     line-height: 1.5;
 }
 
+#menu-icon{
+    display: none;
+}
+
 @media screen and (max-width: 800px) {
     .card {
         width: calc(50% - 20px);
+    }
+
+    #menu-icon {
+        display: block;
+        padding-right: 10px;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(128, 0, 0, 0.801);
+        position: absolute;
+        top: 60px;
+        left: 0;
+        z-index: 1;
+        padding: 0;
+    }
+
+    #menu-toggle:checked + #menu-icon + ul {
+        display: flex;
+    }
+
+    nav ul li {
+        text-align: center;
+        margin: 0;
+    }
+
+    nav ul li a {
+        padding: 15px 0;
+    }
+
+    nav ul li label {
+        display: block;
     }
 }
 

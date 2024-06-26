@@ -9,17 +9,19 @@
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
-   <header>
+   <header class="cabecalho">
       <div class="logo">
          <img class="imglogo" src="img/logovalorant.png" alt="Logo do Valorant">
       </div>
       <div>
-         <nav>
+         <nav id="menu">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" id="menu-icon">&#9776;</label>
             <ul>
-               <li>CONCEITO</li> 
-               <li>MAPAS</li>
-               <li>TIMES BRASILEIROS</li>
-               <li>CAMPEÕES DO CHAMPIONS</li>
+               <li><a href="#"href="#" onclick="document.getElementById('menu-toggle').click()">CONCEITO</a></li> 
+               <li><a href="#"href="#" onclick="document.getElementById('menu-toggle').click()">MAPAS</a></li>
+               <li><a href="#"href="#" onclick="document.getElementById('menu-toggle').click()">TIMES BRASILEIROS</a></li>
+               <li><a href="#"href="#" onclick="document.getElementById('menu-toggle').click()">CAMPEÕES DO CHAMPIONS</a></li>
             </ul>  
          </nav>
       </div>
