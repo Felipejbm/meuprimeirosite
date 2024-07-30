@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 130px;      
 }
 body{
     background-image:url("../img/imgfundo.jpg");
@@ -298,4 +299,8 @@ lu{
     font-size: 18px;
     color: white;
     background-color: rgba(0, 0, 0, 0.479);
+}
+
+.classe{
+    margin: 2%;
 }
