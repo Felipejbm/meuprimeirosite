@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALORANT.site</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+   <header class="cabecalho">
+      <div class="logo">
+         <img class="imglogo" src="img/logovalorant.png" alt="Logo do Valorant">
+      </div>
+      <div>
+         <nav id="menu">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" id="menu-icon">&#9776;</label>
+            <ul>
+               <li><a href="index.html" onclick="document.getElementById('menu-toggle').click()">Menu</a></li> 
+            </ul>  
+         </nav>
+      </div>
+   </header>
+   <main>
+      <section>
+         <div class="titulos">
+            Qual seu nome e sobrenome?
+         </div>
+         <div class="form">
+            <form>
+               <label for="fname">Primeiro nome:</label><br>
+               <input type="text" id="fname" name="fname"><br>
+               <label for="lname">Sobrenome:</label><br>
+               <input type="text" id="lname" name="lname">
+             </form>
+         </div>
+         <div class="titulos">
+            <p>Qual seu gênero?</p>
+         </div>
+         <div class="form">
+            <form>
+               <input type="radio" id="masc" name="sexo" value="Masculino">
+               <label for="masc">Masculino</label><br>
+               <input type="radio" id="fem" name="sexo" value="Feminino">
+               <label for="fem">Feminino</label><br>
+               <input type="radio" id="nao" name="sexo" value="Nao">
+               <label for="nao">Prefiro não dizer</label>
+            </form>
+         </div>
+         <div class="titulos">
+            <p>Qual sua função de preferência?</p>
+         </div>
+         <div>
+            <form class="form">
+               <input type="radio" id="Duelista" name="Função" value="Duelista">
+               <label for="Duelista">Duelista</label><br>
+               <input type="radio" id="Iniciador" name="Função" value="Iniciador">
+               <label for="Iniciador">Iniciador</label><br>
+               <input type="radio" id="sentinelas" name="Função" value="sentinelas">
+               <label for="sentinelas">Sentinelas</label><br>
+               <input type="radio" id="Controlador" name="Função" value="Controlador">
+               <label for="Controlador">Contr olador</label>
+            </form>
+         </div>
+      </section>
+   </main>
+   <footer>
+      <p>MADE BY: Felipe José 1c</p>
+   </footer>
+</body>
+</html>

@@ -78,6 +78,7 @@ main{
 
 footer{
     background-color: white;       
+    margin: 10px;
 }
 
 .titulos{
@@ -303,4 +304,9 @@ lu{
 
 .classe{
     margin: 2%;
+}
+
+.form{
+    text-align: center;
+    margin: 10px;
 }
